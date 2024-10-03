@@ -32,7 +32,7 @@ for key in dates:
         year = 2024
 
     for date in dates[key]:
-        combined_list_of_dates.append(f"2024-{translated_month}-{date}")
+        combined_list_of_dates.append(f"{year}-{translated_month}-{date}")
 
 for index, element in enumerate(combined_list_of_dates):
     with open("file", "w") as file:
